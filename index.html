@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Hunt for Crystals</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<audio src="crystals_violin.mp3" controls autoplay loop>
+		<embed
+			src="crystals_violin.mp3"
+			width="300"
+			height="90"
+			loop="true"
+			autostart="true">
+		</embed>
+	</audio>
+
+</head>
+	<body>
+		<div id = "wrapper"></div>
+			<h1><span>Crystal Power!<span></h1>
+				<div id="instructions">
+		
+<p><h1>The blue box on this page contains a random number. You must use the crystals powers.</p></h1>
+		
+<p>Touch any of the four crystals below. Click on any crystal to begin and the numbers will start to increase to the total score.</p>
+<p><strong>If you reach the random number exactly, you win! But be careful, if you go over that number, you lose!</p></strong> 
+<p><strong>When the game restarts, the crystals number value will change.</p></strong>
+				</div>
+
+	<div class = "container">
+		<div id="guessingNumber">
+			<h1>Number to Guess: <span class="value"></span></h1> 	
+		</div>
+
+		<div id="scoreboard">
+			<h2><span id="status"></span></h2>
+			<h2>Crystals Gained: <span id="win"></span></h2>
+			<h2>Crystals Lost: <span id="loss"></span> </h2>
+		</div>
+	</div>
+
+	
+	<div id="crystals"></div>
+
+	<div id ="totalScore">
+		<h2 id = "yts">Your Total Score is: <span id ="yourScore">0</span></h2>
+		
+	</div>
+
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

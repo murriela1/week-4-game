@@ -1,0 +1,76 @@
+body {
+	background-image: url("http://yoganonymous.com/system/image_assets/images/000/020/814/original/iStock_000063500049_Medium.jpg?1444937431");
+}
+
+h1{
+	background-color: lightblue;
+	font-size: x-large;
+	color: black;
+	display: inline-block;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: purple;
+	width: 85%;
+	clear:both;
+	padding: 30px;
+	margin-top: 30px;
+	border: solid 1px #ddd
+}
+
+#guessingNumber {
+	background-color: blue;
+	float: left;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 5px #ddd
+
+}
+
+#crystals {
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+}
+
+.crystalImage {
+	height: 125px;
+	border: solid 1px #272525;
+	margin-left: 25px
+}
+
+.crystalImage:firstchild {
+	margin-left: 25px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts { 
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
